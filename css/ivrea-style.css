@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(43, 43, 43)
+}
+
+#header {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgb(43, 43, 43)), url("../img/background.jpg");
+}
+
+.storia {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.storia-container {
+	width: 50%;
+	position: absolute;
+	top: 8%;
+	left: 25%;
+}
+
+.storia-container div {
+	margin-bottom: 15%;
+	font-size: 20px;
+}
+
+.storia-container h1 {
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.storia-container img {
+	width: 33%;
+	border-radius: 10px;
+}
+
+.storia-img-right {
+	float: right;
+	padding-left: 20px;
+}
+
+.storia-img-left {
+	float: left;
+	padding-right: 20px;
+}

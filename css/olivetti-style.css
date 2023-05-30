@@ -1,0 +1,129 @@
+body {
+	background-color: rgb(110, 0, 0);
+	overflow-x: hidden;
+}
+
+#header {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgb(110, 0, 0)), url("../img/olivettiBackground.jpg");
+}
+
+#pc-header {
+	background-image: linear-gradient(rgb(110, 0, 0), rgba(0, 0, 0, .6), rgb(117, 113, 105)), url("../img/olivettiPcBackground.jpg");
+}
+
+.olivetti {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.olivetti-container {
+	width: 50%;
+	position: relative;
+	top: 6%;
+	left: 25%;
+	font-size: 20px;
+}
+
+.olivetti-container h1 {
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.img-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.img-list img {
+	width: 25%;
+	border-radius: 10%;
+}
+
+.olivetti-pc-header {
+	width: 100%;
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.olivetti-pc-header-container {
+	width: 50%;
+	position: absolute;
+	bottom: 50%;
+	left: 25%;
+	text-align: center;
+}
+
+.pc {
+	background-color: rgb(117, 113, 105);
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	padding-top: 20px;
+}
+
+.pc-container {
+	width: 50%;
+	position: relative;
+	top: 6%;
+	left: 25%;
+	font-size: 20px;
+}
+
+.pc-cards-container {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	left: -25%;
+	margin-top: 40px;
+	width: 150%;
+}
+
+.pc-card {
+	background-color: rgb(201, 201, 201);
+	color: rgb(10, 10, 10);
+	width: 30%;
+	height: 350px;
+	border: 3px solid;
+	border-radius: 5%;
+	padding: 20px;
+	left: 0%;
+	position: relative;
+}
+
+.pc-card h3 {
+	color: rgb(10, 10, 10);
+	float: right;
+}
+
+.pc-card img {
+	width: 30%;
+	border: 1px solid;
+	border-radius: 10%;
+	color: rgb(10, 10, 10);
+	transition: .3s;
+}
+
+.pc-card img:hover {
+	width: 58%;
+}
+
+.pc-card p {
+	color: rgb(10, 10, 10);
+	margin-top: 50px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.end-paragraph {
+	margin-top: 50px;
+}
+
+.start-paragraph {
+	margin-top: 50px;
+}
